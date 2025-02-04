@@ -1,1 +1,41 @@
-
+- summary: |
+    Проверка входа пользователя с несуществующими email и паролем
+  requirement: |
+    При неправильном email или пароле пользователь должен получить сообщение об ошибке
+  prerequisites:
+    Открыта страница ввода email и пароля
+  test-data: |
+    Email = LAlala Password = Kakaka
+  steps:
+    - Вводим email
+    - Вводим password
+    - Нажимаем кнопку "Submit"
+  expected-result: |
+    Пользователь должен получить сообщение об ошибке
+    
+- summary: |
+    Проверка возможности регистрации пользователя без заполнения поля email
+ requirement: |
+    При отсутствии заполненного поля email пользователь должен получить сообщение об ошибке
+  prerequisites:
+    Открыта страница регистрации пользователя
+  test-data: |
+    Nickname = Lemon Email =  Password = Kakaka Password Confirmation = Kakaka
+  steps:
+    - Вводим nickname
+    - Вводим email
+    - Вводим password
+    - Нажимаем кнопку "Submit"
+  expected-result: |
+    Пользователь должен получить сообщение об ошибке
+    
+- summary: |
+    Проверка возможности регистрации пользователя через Github
+ requirement: |
+    При нажатии кнопки "Sing in with Github" должна произойти регистрация через Github
+  prerequisites:
+    Открыта страница регистрации пользователя
+  steps:
+    - Нажимаем кнопку "Sing in with Github"
+  expected-result: |
+    Пользователь должен зарегистрироваться через Github
