@@ -5,7 +5,7 @@
   prerequisites:
     Открыта страница регистрации пользователя
   test-data: |
-    Nickname = Lemon Email = Lemon@.com Password = Kakaka Password Confirmation = Kakaka
+    Nickname = Lemon Email = Lemon@mail.com Password = Kakaka Password Confirmation = Kakaka
   steps:
     - Вводим nickname
     - Вводим email
@@ -22,7 +22,7 @@
   prerequisites:
     Открыта страница авторизации пользователя
   test-data: |
-    Email = Lemon@.com Password = Kakaka
+    Email = Lemon@mail.com Password = Kakaka
   steps:
     - Вводим email
     - Вводим password
@@ -53,7 +53,7 @@
   prerequisites:
     Открыта страница ввода email
   test-data: |
-    Email = LAlala@.ru Password = 123QWEasd
+    Email = LAlala@mail.ru Password = 123QWEasd
   steps:
     - Вводим несуществующий email
     - Вводим password
@@ -68,7 +68,7 @@
   prerequisites:
     Открыта страница ввода пароля
   test-data: |
-    Email = Lemon@.com Password = Kakaka
+    Email = Lemon@mail.com Password = Kakaka
   steps:
     - Вводим email
     - Вводим несуществующий password
