@@ -4,11 +4,27 @@
   status: pass
 
 - summary: |
+    Проверка невозможности регистрации пользователя без заполнения поля Password
+  status: pass
+
+- summary: |
+    Проверка невозможности регистрации пользователя без заполнения поля Password Confirmation
+  status: pass
+
+- summary: |
+    Проверка возможности авторизации пользователя
+  status: pass
+
+- summary: |
     Проверка невозможности регистрации пользователя без заполнения поля email
   status: pass
 
 - summary: |
-    Проверка невозможности регистрации пользователя без заполнения поля Password
+    Проверка входа пользователя с несуществующим email
+  status: pass
+
+- summary: |
+    Проверка входа пользователя с неправильным паролем
   status: pass
 
 - summary: |
@@ -20,7 +36,7 @@
   status: pass
 
 - summary: |
-    Пользователь должен иметь возможность восстановить свой пароль при утере данных
+    Проверка восстановления пароля 
   status: pass
 
 - summary: |
@@ -48,49 +64,350 @@
   status: pass
 
 - summary: |
-    Проверка возможности перехода в раздел "Hexlet"
+    Проверка возможности перехода на сайт "Hexlet"
   status: pass
 
 - summary: |
-    Проверка возможности перехода в раздел "Join Discord"
+    Проверка возможности перенаправления на корпоративный Discord по нажатию на кнопку "Join Discord" 
   status: pass
 
 - summary: |
-    Проверка возможности перехода в раздел "Tg#codebattle"
+    Проверка возможности перенаправления на Telegram канал по нажатию на кнопку "Tg#codebattle"
   status: pass
 
 - summary: |
-    Проверка возможности взаимодействия с другими пользователями
+    Проверка возможности отправления сообщениий в общий чат
   status: pass
 
 - summary: |
-    Проверка возможности создания игры по своим параметрам 
+    Проверка возможности отправки личного сообщения другому игроку
   status: pass
 
 - summary: |
-    Проверка удобства работы сайта на мобильном устройстве
+    Проверка возможности отправки приглашения на спарринг с другим игроком 
   status: pass
 
 - summary: |
-    Проверка сайта на совместимость с последними версиями браузеров
+    Проверка принятия приглашения на спарринг от другого игрока
   status: pass
 
 - summary: |
-    Проверка возможности просмотра истории сыгранных игр
+     Проверка возможности копирования имени другого игрока в чате
   status: pass
 
 - summary: |
-    Проверка возможности просмотра статистики своих игр
+     
   status: pass
 
 - summary: |
-    Проверка возможности просмотра статистики игр других участников
+     
   status: pass
 
 - summary: |
-    Проверка возможности просмотра списка задач в играх
+     
   status: pass
 
 - summary: |
-    Проверка возможности просмотра турниров
+     
   status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
+- summary: |
+     
+  status: pass
+
