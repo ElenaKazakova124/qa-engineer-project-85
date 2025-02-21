@@ -320,6 +320,10 @@
   status: pass
 
 - summary: |
+     Проверка возможности создания своего собственного пакета задач
+  status: pass
+
+- summary: |
      Проверка возможности просмотра списка турниров на странице “Tournaments”
   status: pass
 
@@ -345,4 +349,4 @@
 
   - summary: |
      Проверка возможности создания нового турнира на странице “Tournaments”
-  status: pass
+  status: fail
