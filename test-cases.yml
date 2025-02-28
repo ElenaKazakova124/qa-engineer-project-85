@@ -21,7 +21,7 @@
     При отсутствии заполненного поля Password пользователь должен получить сообщение об ошибке
   prerequisites:
     Открыта страница регистрации пользователя
-  test-data: |
+  test-data: | 
     Nickname = Lemon Email = Lemon@mail.com Password Confirmation = Kakaka
   steps:
     - Вводим nickname
