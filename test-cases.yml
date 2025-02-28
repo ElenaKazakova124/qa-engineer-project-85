@@ -293,7 +293,7 @@
     - Нажимаем на кнопку в виде двух пересекающихся мечей над списком игроков в чате или 
     нажимаем на ник игрока в чате и на функцию "Send an invite"
     - В открывшимся окне выбираем игрока, с которым хотим провести спарринг
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create invite"
   expected-result: |
     Пользователь может успешно отправлять приглашения на спарринг с другими пользователями
@@ -391,7 +391,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
   expected-result: |
     Пользователь может запустить игру по выбранным параметрам 
@@ -404,7 +404,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games под описанием задачи нажимаем на раскрывающийся список и выбираем необходимый язык программирования
   expected-result: |
@@ -418,7 +418,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games под описанием задачи нажимаем на кнопку с изображением Солнца/Луны и выбираем необходимую цветовую схему поля
   expected-result: |
@@ -432,7 +432,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - Устанавливаем курсов в поле на вкладке "Editor"
   expected-result: |
@@ -447,7 +447,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games под описанием задачи нажимаем на кнопку "Run"
   expected-result: |
@@ -461,7 +461,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games заходим во вкладку "Output"
   expected-result: |
@@ -475,7 +475,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games под описанием задачи нажимаем на кнопку с изображением трех точек и в открывающимся списке выбираем "Reset Solution"
   expected-result: |
@@ -489,7 +489,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games под описанием задачи нажимаем на кнопку с изображением трех точек и в открывающимся списке выбираем "Give up"
     - На всплывающем сообщении подтверждения сдаться нажимаем кнопку "Give up"
@@ -504,7 +504,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games под описанием задачи нажимаем на кнопку с изображением трех точек и в открывающимся списке выбираем "Give up"
     - На всплывающем сообщении подтверждения сдаться нажимаем кнопку "Give up"
@@ -520,7 +520,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games под описанием задачи нажимаем на свой никнейм
   expected-result: |
@@ -534,7 +534,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием задачи нажимаем кнопку переключения языка и выбираем необходимый EN или RU
   expected-result: |
@@ -548,7 +548,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games на стороне оппонента пишем в строке чата и нажимаем "Send"
   expected-result: |
@@ -562,7 +562,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games на стороне оппонента нажимаем кнопку "Open History"
   expected-result: |
@@ -576,7 +576,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games на стороне оппонента нажимаем кнопку "Back to Home"
   expected-result: |
@@ -590,7 +590,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием задачи нажимаем кнопку "Expand"
   expected-result: |
@@ -604,7 +604,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием задачи нажимаем кнопку "Expand"
     - В открывшемся окне нажимаем кнопку переключения языка и выбираем необходимый EN или RU
@@ -619,7 +619,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием задачи нажимаем кнопку "Expand"
     - В открывшемся окне нажимаем элемент управления в форме знака Х 
@@ -634,7 +634,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием задачи нажимаем кнопку "Expand"
     - В открывшемся окне нажимаем кнопку “x Close” 
@@ -649,7 +649,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием нажимаем кнопку "Show guide"
   expected-result: |
@@ -663,7 +663,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием нажимаем кнопку "Show guide"
     - Листаем подсказки с помощью кнопки "Next"
@@ -678,7 +678,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием нажимаем кнопку "Show guide"
     - Листаем подсказки с помощью кнопки "Next"
@@ -694,7 +694,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием нажимаем кнопку "Show guide"
     - Листаем подсказки с помощью кнопки "Next"
@@ -710,7 +710,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games над описанием строка "Timeout in"
   expected-result: |
@@ -724,7 +724,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games на стороне оппонента вкладка "Editor"
   expected-result: |
@@ -738,7 +738,7 @@
     Открыта главная страница сайта авторизованного пользователя 
   steps:
     - Нажимаем кнопку "Create a Game"
-    - Во вспывающем окне устанавливаем параметры игры: level, game up, time control, choose task by name or tags
+    - Во вспывающем окне устанавливаем параметры игры level, game up, time control, choose task by name or tags
     - Нажимаем кнопку "Create Battle"
     - На странице Games на стороне оппонента кнопка "Rematch"
   expected-result: |
