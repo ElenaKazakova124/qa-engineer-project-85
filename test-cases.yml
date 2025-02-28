@@ -776,7 +776,7 @@
   prerequisites:
     Открыта главная страница сайта авторизованного пользователя 
   steps:
-    - Переключиться в таблице на определенный промежуток: week, month, all
+    - Переключиться в таблице на определенный промежуток week, month, all
   expected-result: |
     Пользователь может просмотреть таблицу лидеров за определенное время
 
@@ -1010,7 +1010,7 @@
     - Из раскрывающегося списка выбираемся "Tasks"
     - Нажимаем на кнопку "Create new tasks"
     - Нажимаем на разворачивающийся список с изображением Звезды 
-    - В списке выбираем необходимый режим: "Elementary", "Easy", "Medium", "Hard"
+    - В списке выбираем необходимый режим "Elementary", "Easy", "Medium", "Hard"
   expected-result: |
     Пользователь может выбрать уровень сложности новой задачи на странице “Create Tasks”
 
@@ -1072,7 +1072,7 @@
     - Из раскрывающегося списка выбираемся "Tasks"
     - Нажимаем на кнопку "Create new tasks"
     - Нажимаем на кнопку с изображением Карандаша под надписью "Output parameter type"
-    - В открывшимся окне выбираем тип выходного параметра: "integer", "string", "float", "boolean", "array", "hash"
+    - В открывшимся окне выбираем тип выходного параметра "integer", "string", "float", "boolean", "array", "hash"
     - Нажимаем кнопку "Save"
   expected-result: |
     Пользователь может установить тип выходного параметра на странице “Create Tasks”
@@ -1117,7 +1117,7 @@
     - Из раскрывающегося списка выбираемся "Tasks"
     - Нажимаем на кнопку "Tasks pack"
     - Нажимаем на кнопку "Create new task pack"
-    - Заполняем поля: Name, Visibility, Task_ids
+    - Заполняем поля Name, Visibility, Task_ids
     - Нажимаем кнопку "Save"
   expected-result: |
     Пользователь может создать свой собственный пакет задаx
@@ -1212,7 +1212,7 @@
     - Нажимаем на свой никнейм для открытия выпадающего списка 
     - Из раскрывающегося списка выбираемся "Tournaments"
     - Переходим на часть страницы "Create a new tournament"
-    - Заполняем строки: Name, Type, Description, Starts at, Access type, Task strategy, Score strategy, Task provider, 
+    - Заполняем строки Name, Type, Description, Starts at, Access type, Task strategy, Score strategy, Task provider, 
     Level, Event, Players limit, Default language, Match timeout seconds, Break duration seconds
     - Ставим галочки: Use chat, Use timer
     - Жмем "Create"
