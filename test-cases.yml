@@ -1210,8 +1210,7 @@
     - Нажимаем на свой никнейм для открытия выпадающего списка 
     - Из раскрывающегося списка выбираемся "Tournaments"
     - Переходим на часть страницы "Create a new tournament"
-    - Заполняем строки Name, Type, Description, Starts at, Access type, Task strategy, Score strategy, Task provider, 
-    Level, Event, Players limit, Default language, Match timeout seconds, Break duration seconds
+    - Заполняем строки Name, Type, Description, Starts at, Access type, Task strategy, Score strategy, Task provider, Level, Event, Players limit, Default language, Match timeout seconds, Break duration seconds
     - Ставим галочки: Use chat, Use timer
     - Жмем "Create"
   expected-result: |
