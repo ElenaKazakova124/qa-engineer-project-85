@@ -4,7 +4,7 @@
     Пользователь должен иметь возможность зарегистрироваться на сайте
   prerequisites:
     Открыта страница регистрации пользователя
-  test-data: |
+  test-data: | 
     Nickname = Lemon Email = Lemon@mail.com Password = Kakaka Password Confirmation = Kakaka
   steps:
     - Вводим nickname
@@ -115,6 +115,7 @@
   prerequisites:
     Открыт профиль на сайте авторизованного пользователя
   test-data: |
+  -
   steps:
     - Нажимаем на свой профиль в меню 
     - Нажимаем кнопку "Sing Out"
@@ -128,6 +129,7 @@
   prerequisites:
     Открыта страница регистрации пользователя
   test-data: |
+  -
   steps:
     - Нажимаем кнопку "Sing in with Github"
     - Вводим "Username or email address"
@@ -143,6 +145,7 @@
   prerequisites:
     Открыта страница ввода email и пароля
   test-data: |
+  -
   steps:
     - Нажимаем на кнопку "Forgot your password?"
     - Вводим свою почту для восстановления пароля
