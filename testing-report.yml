@@ -216,6 +216,10 @@
   status: pass
 
 - summary: |
+     Проверка возможности определения победителя/проигравшего в матче на странице "Games"
+  status: pass
+
+- summary: |
      Проверка сайта на совместимость с Google Chome, Mozilla firefox, Safari
   status: pass
 
